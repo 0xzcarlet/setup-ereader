@@ -1,0 +1,51 @@
+{
+  "brand": "ruang baca",
+  "title": "Direktori E-reader",
+  "intro": "Satu tempat untuk menyiapkan bacaan berikutnya. Kumpulan aplikasi, font, dan buku digital untuk e-reader kamu.",
+  "footer": "Dikumpulkan untuk kenyamanan membaca.",
+  "categories": [
+    {
+      "id": "apps",
+      "title": "Aplikasi",
+      "description": "Perangkat kecil untuk pengalaman membaca yang lebih pas.",
+      "emptyText": "Aplikasi sedang dikumpulkan. Cek lagi nanti, ya.",
+      "items": [
+        {
+          "name": "Moon Reader Pro",
+          "file": "apps/Moon Reader Pro v10.8 (Premium).apk",
+          "format": "APK",
+          "size": "57.8 MB",
+          "version": "v10.8",
+          "description": "Aplikasi pembaca untuk Android."
+        }
+      ]
+    },
+    {
+      "id": "fonts",
+      "title": "Font",
+      "description": "Temukan bentuk huruf yang nyaman di mata.",
+      "emptyText": "Pilihan font akan hadir di sini.",
+      "items": []
+    },
+    {
+      "id": "epub",
+      "title": "Buku EPUB",
+      "description": "Bacaan untuk menemani waktu luang.",
+      "emptyText": "Rak ini masih kosong. Bacaan sedang disiapkan.",
+      "items": [
+        {
+          "name": "Lord of Mysteries HTL",
+          "file": "epub/Lord of Mysteries HTL.EPUB",
+          "format": "EPUB",
+          "size": "11.4 MB"
+        },
+        {
+          "name": "Shadow Slave",
+          "file": "epub/shadow slave (1).epub",
+          "format": "EPUB",
+          "size": "5.3 MB"
+        }
+      ]
+    }
+  ]
+}
