@@ -29,6 +29,14 @@
           "size": "57.8 MB",
           "version": "v10.8",
           "description": "Aplikasi pembaca untuk Android."
+        },
+        {
+          "name": "Moon+ Reader",
+          "file": "apps/com.flyersoft.moonreader_10.2-1002001_4arch_7dpi_24lang_5bad66a43eec754f94d6288df8a7a2ee_apkmirror.com.apkm",
+          "format": "APKM",
+          "size": "36.9 MB",
+          "version": "v10.2",
+          "description": "Aplikasi pembaca untuk Android 5.0+. Paket APKM."
         }
       ]
     },
