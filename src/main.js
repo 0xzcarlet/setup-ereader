@@ -18,10 +18,16 @@ function downloadUrl(file) {
 
 function renderItem(item) {
   const metadata = [item.format, item.size, item.version].filter(Boolean)
+  const url = item.url ? new URL(item.url) : null
+  if (url && url.protocol !== 'https:') {
+    throw new Error(`URL download harus menggunakan HTTPS: ${item.url}`)
+  }
+  const href = url ? url.href : downloadUrl(item.file)
+  const linkLabel = item.linkLabel || 'Unduh'
   return `<li class="download-row">
     <div class="file-info"><h3>${escape(item.name)}</h3><p>${escape(item.description || '')}</p>
     ${metadata.length ? `<div class="file-meta">${metadata.map(escape).join('<span aria-hidden="true"> / </span>')}</div>` : ''}</div>
-    <a class="download-link" href="${escape(downloadUrl(item.file))}" download aria-label="Unduh ${escape(item.name)}">Unduh ${arrow}</a>
+    <a class="download-link" href="${escape(href)}"${url ? '' : ' download'} aria-label="${escape(linkLabel)} ${escape(item.name)}">${escape(linkLabel)} ${arrow}</a>
   </li>`
 }
 

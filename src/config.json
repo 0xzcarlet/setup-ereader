@@ -11,6 +11,18 @@
       "emptyText": "Aplikasi sedang dikumpulkan. Cek lagi nanti, ya.",
       "items": [
         {
+          "name": "Mihon",
+          "url": "https://github.com/mihonapp/mihon/releases/download/v0.21.3/mihon-v0.21.3.apk",
+          "format": "APK",
+          "version": "v0.21.3"
+        },
+        {
+          "name": "Ekstensi Mihon — Keiyoushi",
+          "url": "https://keiyoushi.github.io/",
+          "description": "Kunjungi Keiyoushi untuk ekstensi Mihon.",
+          "linkLabel": "Buka situs"
+        },
+        {
           "name": "Moon Reader Pro",
           "file": "apps/Moon Reader Pro v10.8 (Premium).apk",
           "format": "APK",
@@ -25,6 +37,13 @@
       "title": "Font",
       "description": "Temukan bentuk huruf yang nyaman di mata.",
       "emptyText": "Pilihan font akan hadir di sini.",
+      "items": []
+    },
+    {
+      "id": "wallpapers",
+      "title": "Wallpaper",
+      "description": "Pilihan wallpaper untuk tampilan e-reader kamu.",
+      "emptyText": "Wallpaper sedang dikumpulkan. Cek lagi nanti, ya.",
       "items": []
     },
     {

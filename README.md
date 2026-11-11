@@ -43,7 +43,11 @@ Edit `src/config.json`:
 }
 ```
 
-`name` dan `file` wajib diisi. `description`, `format`, `size`, dan `version`
+Untuk unduhan eksternal, gunakan `url` berisi tautan HTTPS sebagai pengganti
+`file`, seperti entri Mihon di config. Tombol Unduh akan mengarah langsung ke URL tersebut.
+Gunakan `linkLabel` untuk mengganti teks tombol, misalnya `Buka situs` untuk halaman ekstensi.
+
+`name` dan salah satu dari `file` atau `url` wajib diisi. `description`, `format`, `size`, dan `version`
 opsional. Ukuran dan versi ditulis manual. Jalur `file` relatif terhadap
 `public/download/`, tanpa awalan `/`; kapitalisasi harus sama dengan nama file.
 Spasi pada nama file didukung. Jangan gunakan `..` pada jalur file.
