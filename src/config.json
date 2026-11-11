@@ -35,9 +35,45 @@
     {
       "id": "fonts",
       "title": "Font",
-      "description": "Temukan bentuk huruf yang nyaman di mata.",
+      "description": "5 pilihan font untuk membaca. Buka Google Fonts, pilih Get font, lalu unduh melalui Download all. Ekstrak ZIP sebelum mengimpor font ke aplikasi pembaca.",
       "emptyText": "Pilihan font akan hadir di sini.",
-      "items": []
+      "items": [
+        {
+          "name": "Literata",
+          "url": "https://fonts.google.com/specimen/Literata",
+          "description": "Pilihan awal untuk novel dan buku digital. Awalnya dirancang untuk Google Play Books.",
+          "format": "Serif",
+          "linkLabel": "Google Fonts"
+        },
+        {
+          "name": "Source Serif 4",
+          "url": "https://fonts.google.com/specimen/Source+Serif+4",
+          "description": "Bentuk huruf yang jelas untuk teks panjang, di layar maupun cetak.",
+          "format": "Serif",
+          "linkLabel": "Google Fonts"
+        },
+        {
+          "name": "Merriweather",
+          "url": "https://fonts.google.com/specimen/Merriweather",
+          "description": "Dirancang untuk dibaca di layar, dengan huruf kecil yang relatif tinggi dan bentuk terbuka.",
+          "format": "Serif",
+          "linkLabel": "Google Fonts"
+        },
+        {
+          "name": "Lora",
+          "url": "https://fonts.google.com/specimen/Lora",
+          "description": "Nuansa kaligrafi dengan kontras sedang. Pilihan untuk cerita dan esai, dioptimalkan untuk layar.",
+          "format": "Serif",
+          "linkLabel": "Google Fonts"
+        },
+        {
+          "name": "Atkinson Hyperlegible",
+          "url": "https://fonts.google.com/specimen/Atkinson+Hyperlegible",
+          "description": "Bentuk karakter dibuat berbeda agar lebih mudah dikenali. Coba jika ingin huruf tanpa kait.",
+          "format": "Sans-serif",
+          "linkLabel": "Google Fonts"
+        }
+      ]
     },
     {
       "id": "wallpapers",
